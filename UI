@@ -1,0 +1,211 @@
+<html>
+<head> 
+<script type="text/javascript" src='script.js'> </script>
+    <title>abc</title><meta charset="utf-8"/>
+</script>
+<link rel="stylesheet" href="simple.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.half {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+ <script>
+    tryMe('This is jayanth');
+    </script>
+
+<!-- DEPLOYMENT PURPOSE  --!>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2> DEPLOYMENT PURPOSE </h2>
+<ol>
+<a href="http://vmwahcbld02-dev.corp.netapp.com:8081/artifactory/build-artifacts/Stage_Prerel_Builds/" target="_blank"> Stage prerel builds </a></br>
+<a href="http://vmwahcbld02-dev.corp.netapp.com:8081/artifactory/build-artifacts/dataload/" target="_build"> Stage dataload </a> </br>
+<a href="http://svlace-jenkins-enterprise.gdl.eng.netapp.com:8080/jenkins/" target="_blank"> Jenkins </a></br>
+</ol>
+
+<!-- APPLICATIONS PROD --!>
+  
+</div>
+  <div class="half" style="background-color:#bbb;">
+    <h2>APPLICATIONS PROD </h2>
+<ol>
+<a href="https://mysupport.netapp.com/myautosupport/dist/index.html#/index.html" target="_blank"> ActiveIQ </a></br>
+<a href="https://smartsolve.netapp.com/Home" target="_blank"> Smartsolve </a></br>
+<a href="https://mysupport.netapp.com/matrix/#welcome" target="_blank"> IMT </a></br>
+<a href="https://fusion.netapp.com/" target="_blank"> FUSION </a></br>
+<a href="http://track.netapp.com/Home" target="_blank"> Fusion tracking </a></br>
+<a href="https://netapp.service-now.com/navpage.do" target="_blank"> Service-now </a></br>
+<a href="https://splunk.corp.netapp.com/en-US/app/css/default" target="_blank"> Splunk Prod </a></br>
+<a href="http://phyahc124d4-prd.corp.netapp.com:8088/cluster/apps/RUNNING" target="_blank"> Yarn prod page </a></br>
+</ol></br>
+  </div>
+
+<!-- APPLICATIONS STAGE --!>
+
+
+<div class="half" style="background-color:#ccc;">
+    <h2>APPLICATIONS STAGE </h2>
+<ol>
+<a href="http://durahc121d2-stg.corp.netapp.com:8088/cluster" target="_blank"> Yarn stage page </a></br> 
+<a href="https://splunk-dev.corp.netapp.com/en-US/account/login?return_to=%2Fen-US%2Fapp%2Fcss%2Fdefault" target="_blank"> Splunk Stage </a></br>
+</ol></br>
+  </div>
+
+<!-- PRODUCTION SERVERS --!>
+
+
+<div class="row">
+  <div class="column" style="background-color:#ccc;">
+    <h2> PRODUCTION SERVERS </h2>
+<a> SERVERS LIST: </a>
+<ol>
+  <select name="Pentaho" class = "pentaho">
+    <option value="pentaho prod">pentaho prod</option>
+    <option value="phyahcpen04-prd">phyahcpen04-prd</option>
+    <option value="phyahcpen05-prd">phyahcpen05-prd</option>
+    <option value="phyahcpen06-prd">phyahcpen06-prd</option>
+</select>
+<select name="ActiveIQ prod">
+    <option value="pentaho prod">ActiveIQ prod</option>
+    <option value="phymasapp16-prd">phymasapp16-prd</option>
+    <option value="phymasapp17-prd">phymasapp17-prd</option>
+    <option value="phymasapp18-prd">phymasapp18-prd</option>
+    <option value="phymasapp19-prd">phymasapp19-prd</option>
+  </select>
+</select>
+<select name="ETL prod"> ETL prod </option>
+<option value ="ETL prod">ETL prod </option>
+<option value="phyahcpen04-prd"> phyahcpen04-prd</option>
+<option value="phyahcpen05-prd"> phyahcpen05-prd</option>
+<option value="phyahcpen06-prd"> phyahcpen06-prd</option>
+</select>
+  </div>
+
+<!-- STAGE SERVERS --!>
+
+
+<div class="row">
+  <div class="column" style="background-color:#ddd;">
+    <h2> STAGE SERVERS </h2>
+<a> SERVERS LIST: </a>
+<ol>
+ <select name="Pentaho">
+    <option value="pentaho prod">pentaho stage</option>
+    <option value="phyahcpen01-stg">phyahcpen01-stg</option>
+    <option value="phyahcpen02-stg">phyahcpen02-stg</option>
+    <option value="phyahcpen03-stg">phyahcpen03-stg</option>
+  </select>
+  <select name="ActiveIQ stage"> ActiveIQ stage </option>
+<option value ="ActiveIQ stage">ActiveIQ stage </option>
+<option value ="phymasapp01-stg">phymasapp01-stg</option>
+<option value ="phymasapp02-stg">phymasapp02-stg</option>
+<option value ="phymasapp03-stg">phymasapp03-stg</option>
+<option value ="phymasapp04-stg">phymasapp04-stg</option>
+<option value ="phymasapp05-stg">phymasapp05-stg</option>
+<option value ="vmwmasapp12-stg">vmwmasapp12-stg</option>
+<option value ="vmwmasapp13-stg">vmwmasapp13-stg</option>
+<option value ="vmwmasapp14-stg">vmwmasapp14-stg</option>
+<option value ="vmwmasapp15-stg">vmwmasapp15-stg</option>
+<option value ="vmwmasapp16-stg">vmwmasapp16-stg</option>
+</select>
+<select name="ETL stage"> ETL stage </option>
+<option value ="ETL stage">ETL stage </option>
+<option value="phyahcpen01-stg"> phyahcpen01-stg</option>
+<option value="phyahcpen02-stg"> phyahcpen02-stg</option>
+<option value="phyahcpen03-stg"> phyahcpen03-stg</option>
+</select>
+</ol>
+</div>
+
+<!-- HEALTH URL's PRODUCTION --!>
+
+
+<div class="row">
+<div class="column" style="background-color:#eee;">
+<h2> HEALTH URL's PRODUCTION </h2>
+<a href="http://phyahc1mn01-prd.corp.netapp.com/" target="_blank"> ASUP Next: HDC PROD </a>
+</div>
+
+<!-- MONITORING LIST --!>
+
+
+<div class="row">
+<div class="column" style="background-color:#aaa;">
+<h2> MONITORING LIST </h2>
+<p> Excel files: </p>
+<ol>
+<a href="phyahc108s3-prd.corp.netapp.com:8983/solr/#/r2b3_system.system/query/" target="_blank"> Solr URL </a></br>
+<a href="https://zenoss.corp.netapp.com/zport/dmd/" target="_blank">Zenoss </a></br>
+<a href="file:///C:/Users/ramajaya/Downloads/table.html" target="_blank"> Servers List </a></br>
+<a href="C:\Users\ramajaya\Downloads\Asup5 Services Monitoring 1 (1).xlsx"> ASUP5 Monitoring List </a></br>
+<a href="C:\Users\ramajaya\Documents\IMT Feedback_Contacts (3).xlsx"> IMT Feedback Contacts </a></br>
+<a href="C:\Users\ramajaya\Downloads\Copy of Fusion_Weekly_Metrics_Report_18_November_2019.xlsm"> Fusion Jira List </a></br>
+<a href="http://vmwahcres19-stg.corp.netapp.com:8011/asup-rest-interface/lbtest.jsp" target="_blank"> REST health URL </a>
+</div>
+</ol>
+
+<!-- WORK UPDATE --!>
+
+
+<div class="row">
+<div class="column" style="background-color:#aaa;">
+<h2> WORK UPDATE </h2>
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Works done:<br>
+<input type="text" name="Works done" size="50" cols="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</div>
+
+<!-- FUSION MONITORING --!>
+
+
+<div class="row">
+<div class="column" style="background-color:#bbb;">
+<h2> FUSION Monitoring </h2>
+<ol>
+<a href="ssh://" target="_blank"> Putty </a></br>
+<a href="https://signin.netapp.com/cgi-bin/envdump.cgi" target="_blank"> ENV DUMP</a></br>
+<a href="http://services.netapp.com/sso/synergy/login.html" target="_blank> USER TYPE </a></br>
+<a href="http://restprd.corp.netapp.com/asup-rest-interface/ASUP_DATA/client_id/atp_new/custlist/1033253" target="_blank"> CUSTLIST STATUS </a></br>
+<a href="http://restprd.corp.netapp.com/asup-rest-interface/ASUP_DATA/client_id/atp_new/custlist/1033355/secure_flag/false/system_state/active/product_type/filer"> SERIAL NUMS CUSTLIST </a></br>
+<a href="http://restprd.corp.netapp.com/asup-rest-interface/ASUP_DATA/client_id/atp_new/sys_serial_no/601514000086/custlist/1024898,1026646/secure_flag/false/system_state/active/product_type/filer/limit/1/system_start/1/system_limit/1000" target="_blank"> PART OF CUSTLIST</a></br>
+<a href=https://netapp.sharepoint.com/:x:/r/sites/IMT/_layouts/15/guestaccess.aspx?e=IFajwJ&share=ES6IMx3kjCFKn6N-8JObXEwBZ2FGSoMCnQ6remelilbZjg" target="_blank"> IMT Feedback contacts </a>
+</div>
+</ol>
+</body>
+</html>
